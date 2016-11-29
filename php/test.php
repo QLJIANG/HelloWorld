@@ -1,5 +1,7 @@
 <?php
-public function test() {
-	echo 'Hello World';
+class A {
+	public function test() {
+		echo 'Hello World';
+	}
 }
 
