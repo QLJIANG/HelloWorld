@@ -1,0 +1,9 @@
+test:
+    php_code_sniffer:
+        path: "php"
+        standard: "PSR1,PSR2"
+	php_cs_fixer:
+    	verbose: true
+    	diff: true
+    	level: "psr2"
+   		workingdir: "php"
